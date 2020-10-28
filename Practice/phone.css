@@ -1,0 +1,51 @@
+.card {
+    margin: 0px auto;
+    width: 50%;
+    border: 3px grey solid;
+    border-radius: 5%;
+    padding: 5%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+body {
+    background-color: #fcf3cf;
+}
+
+input {
+    width: 90%;
+    margin: 5% auto;
+    display: block;
+}
+
+button {
+    color: teal
+}
+
+hr {
+    background-color: teal;
+    width: 90%;
+    margin: 5% auto;
+}
+
+.NewAccount {
+    background-color: green;
+    color: white;
+    padding: 1%;
+    margin: 5% auto;
+    display: inline-block;
+}
+
+p {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.forgotPassword {
+    text-decoration: none;
+    color: teal;
+    width: 50%;
+    margin: 5% auto;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+h1 {
+    font-family: "Arial";
+}
+
+body {
+
+}
+
+.card {
+    background-color: rgb(211, 211, 211);
+    padding: 0 5% 10px;
+    margin: 5% auto;
+    text-align: center;
+    width: 70%;
+}
+
+.names {
+    margin: 0 24%;
+}
+
+.wide {
+    width: 39%;
+}
+
+.wider {
+    width: 80%;
+}
+
+label,
+input {
+    text-align: left;
+}
+
+form {
+    text-align: left;
+    margin: 0 10%;
+    font-family: "Arial";
+}
+
+button {
+    color: white;
+    background-color: rgb(62, 161, 4);
+    padding: 5px 25px;
+    border-radius: 8%;
+}
+
+.info {
+    color: rgb(97, 97, 97);
+    font-size: small;
+}
+
+#signup {
+    color: rgb(90, 90, 90);
+    font-size: smaller;
+    text-decoration: none;
+}

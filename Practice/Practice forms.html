@@ -1,0 +1,57 @@
+<!DOCTYPE.html>
+<html>
+    <body>
+        <!-- Text Fields -->
+        <form>
+        <label>First Name:</label>
+        <input required type="text" name="firstname" id="firstname">
+        <br>
+        <label>Last Name:</label>
+        <input pattern=".{3,}" type="text" name="lastname" id="lastname">
+        </form>
+        <br>
+
+        <!-- Radio Buttons -->
+        <label>What restaraunt did you eat at?</label><br>
+        <input type="radio" name="restaraunt" value="NYC"><label>NYC</label><br>
+        <input type="radio" name="restaraunt" value="LA"><label>LA</label><br>
+        <input type="radio" name= "restaraunt" value="Wilmington"><label>Wilmington</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>What meal did you order?</label><br>
+        <input type="checkbox" name="meal1" value="Breakfast"><label>Breakfast</label><br>
+        <input type="checkbox" name="meal2" value="Lunch"><label>Lunch</label><br>
+        <input type="checkbox" name="meal3" value="Dinner"><label>Dinner</label><br>
+        <input type="checkbox" name="meal4" value="Appetizer"><label>Appetizer</label><br>
+        <input type="checkbox" name="meal5" value="Dessert"><label>Dessert</label><br><br>
+
+        <!-- Dropdowns -->
+        <label>Rate Your Experience</label><br>
+        <select name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br><br>
+
+        <!-- Date Selector -->
+        <label>Date of Visit</label><br>
+        <input type="date"><br><br>
+
+        <!-- Text Area -->
+        <label>Comments</label><br>
+        <textarea name="comments" maxlength="50" cols="50" rows="4">
+
+        </textarea><br><br>
+
+        <!--  -->
+        <label>SSN:</label><br>
+        <input type="text" maxlength="3">-
+        <input type="text" maxlength="2">-
+        <input type="text" maxlength="4"><br><br>
+
+        <!-- Button -->
+        <button>Submit</button>
+    </body>
+</html>

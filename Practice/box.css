@@ -1,0 +1,10 @@
+.box {
+  width: 90%;
+  height: 200px;
+  max-width: 600px;
+  padding: 20px;
+  border: 2px solid #8292b1;
+  margin: auto;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
