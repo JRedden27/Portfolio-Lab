@@ -1,0 +1,10 @@
+.box {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 200px;
+}
+
+img {
+    max-height: 30%;
+    max-width: 30%;
+}
